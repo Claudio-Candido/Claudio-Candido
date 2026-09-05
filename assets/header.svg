@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Cláudio Cândido — Software developer in Luanda">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="48" y="58" width="0" height="48">
+        <animate attributeName="width" values="0;520;520" keyTimes="0;0.45;1" dur="3.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="subClip">
+      <rect x="48" y="118" width="0" height="28">
+        <animate attributeName="width" values="0;0;640;640" keyTimes="0;0.4;0.75;1" dur="3.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="200" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="6" height="200" fill="url(#accent)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.06" stroke="#94a3b8" stroke-width="1">
+    <path d="M60 0 V200 M140 0 V200 M220 0 V200 M300 0 V200 M380 0 V200 M460 0 V200 M540 0 V200 M620 0 V200 M700 0 V200 M780 0 V200 M860 0 V200"/>
+    <path d="M0 40 H900 M0 80 H900 M0 120 H900 M0 160 H900"/>
+  </g>
+
+  <text x="48" y="48" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
+    ~/luanda
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze"/>
+  </text>
+
+  <g clip-path="url(#typeClip)">
+    <text x="48" y="92" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="40" font-weight="700">
+      Cláudio Cândido
+    </text>
+  </g>
+
+  <!-- caret -->
+  <rect x="48" y="62" width="3" height="36" fill="#38bdf8">
+    <animate attributeName="x" values="48;48;568;568" keyTimes="0;0.05;0.45;1" dur="3.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1" dur="1s" begin="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#subClip)">
+    <text x="48" y="138" fill="#94a3b8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">
+      Python / Flask · SaaS &amp; tools · Luanda, Angola
+    </text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="2.6s" dur="0.6s" fill="freeze"/>
+    <rect x="48" y="162" width="10" height="10" rx="2" fill="#22c55e"/>
+    <text x="66" y="172" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      available for remote work
+    </text>
+  </g>
+</svg>
