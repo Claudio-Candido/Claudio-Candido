@@ -1,35 +1,33 @@
-## Hi, I'm Cláudio
+## Cláudio Cândido
 
-Software developer based in **Luanda, Angola**.
+I build software that has to survive contact with reality — stock that expires, invoices in AOA, technicians who need a PDF before the client leaves.
 
-I build web applications and SaaS products — mostly with **Python**, **Flask**, and straightforward frontends. I care about tools that people can actually use: clear interfaces, Portuguese when it helps the user, and problems that show up in real businesses.
+Based in **Luanda, Angola**. Backend-leaning full-stack. Prefer clear products over clever demos.
 
-### What I work on
+### Focus
 
-- **SaaS for operations** — inventory, POS, reporting, multi-user workflows
-- **Internal / professional tools** — diagnostics, PDFs, dashboards
-- **Small focused apps** — browsers tools, market helpers, utilities
+**Python / Flask SaaS** for operations and professional workflows: multi-user apps, inventory logic, reporting, pragmatic UIs (HTML/CSS/JS when a SPA would only slow me down).
 
-### Selected projects
+### Selected work
 
-| | |
-|---|---|
-| [**MinhaQueridaFarmacia**](https://github.com/Claudio-Candido/MinhaQueridaFarmacia) | Pharmacy management for Angola — FEFO stock, POS, cash register, AOA tax |
-| [**pc-health-check**](https://github.com/Claudio-Candido/pc-health-check) | SaaS for IT technicians — structured diagnostics, health score, PDF reports |
-| [**polymarket-btc5m-pro**](https://github.com/Claudio-Candido/polymarket-btc5m-pro) | Real-time desk for Polymarket BTC 5m markets — charts, signals, paper metrics |
-| [**mahjong**](https://github.com/Claudio-Candido/mahjong) | Mahjong Solitaire in the browser — three layouts, no build step |
-| [**YoutubePlaylistDownloader**](https://github.com/Claudio-Candido/YoutubePlaylistDownloader) | Flask app to download videos, playlists, audio and subtitles via yt-dlp |
+| Project | What I built |
+|---------|----------------|
+| [**MinhaQueridaFarmacia**](https://github.com/Claudio-Candido/MinhaQueridaFarmacia) | Pharmacy ops for Angola — FEFO lots, POS, cash drawer, multi-branch stock, IVA in AOA |
+| [**pc-health-check**](https://github.com/Claudio-Candido/pc-health-check) | SaaS for IT techs — structured diagnostics, 0–100 health score, branded PDF reports, FREE/PRO limits |
+| [**polymarket-btc5m-pro**](https://github.com/Claudio-Candido/polymarket-btc5m-pro) | Real-time market desk — WebSocket books, TWAP logic, charts, paper PnL (research tool) |
+| [**mahjong**](https://github.com/Claudio-Candido/mahjong) | Browser Mahjong Solitaire — three layouts, no build toolchain |
+| [**YoutubePlaylistDownloader**](https://github.com/Claudio-Candido/YoutubePlaylistDownloader) | Flask + yt-dlp — playlists, audio, subtitles, PT interface |
 
 ### Stack
 
-Python · Flask · SQLAlchemy · JavaScript · HTML/CSS · SQLite/MySQL · ReportLab
+`Python` · `Flask` · `SQLAlchemy` · `JavaScript` · `HTML/CSS` · `SQLite` / `MySQL` · `ReportLab` · `Node.js` (market tools)
 
-### Currently
+### Right now
 
-Shipping and refining SaaS products aimed at Lusophone / Angolan workflows. Open to freelance work, collaborations, and remote opportunities.
+Hardening the pharmacy and PC Health products for real use. Open to remote freelance, product collaborations, and engineering roles where ownership matters.
 
-### Contact
+### Elsewhere
 
-- LinkedIn: [claudiojosesecaicandido](https://www.linkedin.com/in/claudiojosesecaicandido/)
-- GitHub: [Claudio-Candido](https://github.com/Claudio-Candido)
-- Based in Luanda, Angola
+[LinkedIn](https://www.linkedin.com/in/claudiojosesecaicandido/) · [GitHub](https://github.com/Claudio-Candido) · Luanda, Angola
+
+If you’re hiring or building something operational — message me on LinkedIn.
